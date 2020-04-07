@@ -1,5 +1,26 @@
 
 .main {
- height: 100vh;
+    height: 100vh;
     background: #206e55;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    height: 400px;
+    width: 300px;
+    background: #6e4f68;
+
 }
