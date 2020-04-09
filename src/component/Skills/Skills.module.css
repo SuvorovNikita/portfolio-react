@@ -1,5 +1,6 @@
 
 .skills {
+    height: 100vh;
     background: #6e1d12;
     display: flex;
     justify-content: center;
@@ -9,49 +10,15 @@
     border: 1px solid;
     width: 80%;
 }
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
 
 .title {
     height: 100px;
     margin: 0;
     border: 1px solid;
     text-align: center;
-}
-
-.card {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-
-.cardItem {
-    background: brown;
-    margin: auto 0;
-    width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.icon {
-    background: white;
-    margin: 0 auto;
-    width: 70px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    border: 1px solid;
-    margin-bottom: 50px;
-}
-
-.name {
-    margin: 0;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.description {
-    border: 1px solid;
-    text-align: center;
-
 }
