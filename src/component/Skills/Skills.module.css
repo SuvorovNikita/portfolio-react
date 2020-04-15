@@ -4,20 +4,30 @@
     background: #6e1d12;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container {
     border: 1px solid;
-    width: 80%;
+    width: 80%;;
+
 }
+
 .card {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
 }
 
+@media screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .title {
-    height: 100px;
+
     margin: 0;
     border: 1px solid;
     text-align: center;

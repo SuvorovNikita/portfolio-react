@@ -1,5 +1,43 @@
 
 .footer {
-    height: 150px;
+    height: 200px;
     background: #246e6a;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+    border: 1px solid;
+}
+
+.title {
+    text-align: center;
+}
+
+.social {
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .social {
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.copyring {
+    text-align: center;
+}
+
+.link {
+    margin-right: 10px;
+}
+
+.link:last-child {
+    margin-right: 0;
 }

@@ -1,0 +1,12 @@
+.cardItem {
+    border: 1px solid;
+    width: 40%;
+}
+
+.name {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}

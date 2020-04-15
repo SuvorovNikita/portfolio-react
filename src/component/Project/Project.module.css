@@ -2,4 +2,30 @@
 .project {
     height: 100vh;
     background: #11576e;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: 1px solid;
+    width: 80%;
+}
+.title {
+    text-align: center;
+    border: 1px solid;
+    margin: 0;
+    height: 100px;
+}
+.wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
