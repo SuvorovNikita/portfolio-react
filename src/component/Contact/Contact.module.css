@@ -1,6 +1,5 @@
 
 .contact {
-    height: 100vh;
     background: #416e1d;
     display: flex;
     justify-content: center;
@@ -13,7 +12,7 @@
 .title {
     text-align: center;
     margin: 0;
-    margin-bottom: 100px;
+
 }
 .form {
     margin: 0 auto;

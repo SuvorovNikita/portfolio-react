@@ -1,20 +1,30 @@
 
 .project {
-    height: 100vh;
     background: #11576e;
     display: flex;
     justify-content: center;
 }
+
 .container {
-    border: 1px solid;
-    width: 80%;
+    background: #fff;
+    width: 100%;
+    padding: 150px 15px;
+    margin: 0 auto;
 }
+
 .title {
     text-align: center;
-    border: 1px solid;
     margin: 0;
-    height: 100px;
 }
+
+.title h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #444;
+    font-size: 55px;
+    line-height: 1.2;
+}
+
 .wrapper {
     flex-wrap: wrap;
     display: flex;

@@ -3,14 +3,14 @@ import styles from "./Project.module.css";
 import ProjectItem from "./CardItem/ProjectItem";
 
 const Project = () => {
-    return(
+    return (
         <div className={styles.project}>
             <div className={styles.container}>
-           <h2 className={styles.title}>Мои Работы</h2>
-              <div className={styles.wrapper}>
-                  <ProjectItem/>
-                  <ProjectItem/>
-              </div>
+                <div className={styles.title}><h2>Мои Работы</h2></div>
+                <div className={styles.wrapper}>
+                    <ProjectItem/>
+                    <ProjectItem/>
+                </div>
             </div>
 
         </div>
