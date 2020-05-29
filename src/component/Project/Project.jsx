@@ -4,7 +4,7 @@ import Title from "../../common/Title/title";
 import obito from './../../assets/img/obito.png';
 
 
-import styles from "./Project.module.css";
+import styles from "./Project.module.scss";
 
 const Project = () => {
     const social = {

@@ -1,0 +1,19 @@
+@import './../../common/styles/sass/variables';
+@import './../../common/styles/sass/mixins';
+
+
+.title {
+  margin: 0;
+
+  h2 {
+    @include text($fontTitle, 55px, 1.2, 800);
+    text-align: center;
+  }
+
+  .separator {
+    display: block;
+    margin: 25px auto;
+  }
+}
+
+

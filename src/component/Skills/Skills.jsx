@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Skills.module.css";
+import styles from "./Skills.module.scss";
 import CardItem from "./CardItem/CardItem";
 import Title from "../../common/Title/title";
 

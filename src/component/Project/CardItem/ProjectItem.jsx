@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./ProjectItem.module.css";
+import styles from "./ProjectItem.module.scss";
 
 const ProjectItem = (props) => {
     let {title, subText} = props;
     return (
         <div className={styles.cardItem}>
             <div className={styles.img} style={props.style}>
-                <a href="#."><h3 className={styles.name}>Смотреть</h3></a>
+                <a className={styles.btn} href="#."><h3 className={styles.name}>Смотреть</h3></a>
             </div>
             <div className={styles.projectInfo}>
                 <h3 className={styles.projectTitle}>{title}</h3>

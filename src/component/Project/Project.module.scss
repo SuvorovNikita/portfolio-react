@@ -1,0 +1,24 @@
+@import './../../common/styles/sass/variables';
+
+.project {
+  display: flex;
+  flex-direction: column;
+
+  .container {
+    width: 1170px;
+    padding: 150px 15px;
+    margin: 0 auto;
+
+    .wrapper {
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      @media screen and (max-width: 1129px) {
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+

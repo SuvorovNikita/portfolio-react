@@ -1,0 +1,62 @@
+@import './../../../common/styles/sass/variables';
+
+.cardItem {
+  width: 500px;
+  height: 100%;
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      content: '';
+      background: $primaryColor;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      left: 0;
+      opacity: 0.3;
+    }
+
+    .btn {
+      position: relative;
+      z-index: 1;
+
+      .name {
+        text-align: center;
+      }
+
+    }
+  }
+
+  .projectInfo {
+    padding: 25px;
+
+    .projectTitle {
+      margin: 0 0 5px;
+      color: $textColor;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .projectText {
+      line-height: 1.5;
+      color: $textSecondColor;
+      font-weight: 400;
+    }
+
+
+  }
+}
+
+
+
+
+

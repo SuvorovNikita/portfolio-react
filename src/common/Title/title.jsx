@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./title.module.css";
+import styles from "./title.module.scss";
 import separator from "../../component/Project/separator.png";
 
 const Title = (props) => {
@@ -12,6 +12,6 @@ const Title = (props) => {
             </div>
         </div>
     )
-}
+};
 
 export default Title;
