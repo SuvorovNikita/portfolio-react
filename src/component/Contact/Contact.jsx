@@ -12,7 +12,6 @@ const Contact = () => {
                     <textarea placeholder="Сообщение" ></textarea>
                 </form>
             </div>
-
         </div>
     )
 };

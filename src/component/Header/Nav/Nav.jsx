@@ -1,13 +1,29 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./Nav.module.scss";
 
 const Nav = () => {
+
+    let [mobile, setMobile] = useState(
+        {isActive: false}
+    );
+
+    let mobileMenuActive = mobile.isActive ? styles.link : styles.menuMobile
+
+    function activeMobile() {
+        setMobile({isActive: !mobile.isActive})
+    }
+
     return (
-        <div className={styles.nav}>
-            <a href=".#" className={styles.link}>Главная</a>
-            <a href=".#" className={styles.link}>Скиллы</a>
-            <a href=".#" className={styles.link}>Проекты</a>
-            <a href=".#" className={styles.link}>Контакты</a>
+        <div>
+            <nav className={styles.nav}>
+                <a onClick={activeMobile} className={styles.btnMenu}>Menu</a>
+                <div className={mobileMenuActive}>
+                    <a className={styles.link} href=".#">Скиллы</a>
+                    <a className={styles.link} href=".#">Проекты</a>
+                    <a className={styles.link} href=".#">Контакты</a>
+                </div>
+
+            </nav>
         </div>
     )
 };

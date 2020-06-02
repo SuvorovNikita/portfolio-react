@@ -1,14 +1,12 @@
+@import "./../../common/styles/container";
 
 .header {
-    height: 70px;
-    background: #3b516e;
-    display: flex;
-    justify-content: center;
+  padding-top: 30px ;
+  padding-bottom: 100px;
+  align-items: center;
+  @media (max-width: 768px) {
+
+  }
 }
 
-.container {
-    width: 80%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+

@@ -1,15 +1,9 @@
+@import "./../../common/styles/container";
 
 .skills {
-    background: #6e1d12;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.container {
-    border: 1px solid;
-    width: 80%;;
-
 }
 
 .card {

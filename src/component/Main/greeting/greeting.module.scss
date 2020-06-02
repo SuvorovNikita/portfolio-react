@@ -1,0 +1,10 @@
+@import "./../../../common/styles/sass/variables";
+@import "./../../../common/styles/sass/mixins";
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  @include text($fontTitle, 25px, 1.3, 400);
+  color: $textColorAlt;
+  margin-bottom: 5px;
+}

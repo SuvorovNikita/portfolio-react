@@ -1,13 +1,12 @@
 @import './../../common/styles/sass/variables';
+@import "./../../common/styles/container";
 
 .project {
   display: flex;
   flex-direction: column;
 
   .container {
-    width: 1170px;
-    padding: 150px 15px;
-    margin: 0 auto;
+
 
     .wrapper {
       flex-wrap: wrap;

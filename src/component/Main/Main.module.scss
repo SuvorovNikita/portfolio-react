@@ -1,27 +1,34 @@
+@import "./../../common/styles/container";
 
 .main {
-    background: #206e55;
-    display: flex;
-    justify-content: center;
-}
 
-.container {
-    border: 1px solid;
-    width: 80%;
+  .container {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-around;
+    @media (max-width: 768px){
+      flex-direction: column;
+    }
+
+    .greeting {
+      display: flex;
+      flex-direction: column;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+
+    .photo {
+      padding: 0 15px;
+      margin: 0 auto;
+      height: 400px;
+      width: 300px;
+      background: #6e4f68;
+
+    }
+  }
 }
 
-.greeting {
-    display: flex;
-    flex-direction: column;
-}
 
-.photo {
-    height: 400px;
-    width: 300px;
-    background: #6e4f68;
 
-}
+
+

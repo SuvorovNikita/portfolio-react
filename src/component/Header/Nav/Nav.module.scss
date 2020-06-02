@@ -1,12 +1,47 @@
+@import "./../../../common/styles/sass/mixins";
+@import "./../../../common/styles/sass/variables";
 
 
 .nav {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: flex-end;
+
+  .btnMenu {
+    cursor: pointer;
+    display: block;
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  .link {
+    text-decoration: none;
+    padding: 0 15px;
+    @include subText($fontTitle, 18px, 400);
+    text-transform: capitalize;
+    color: $textSecondColor;
+    @media (max-width: 768px) {
+
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  .menuMobile {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+
 }
 
-.link {
-    text-decoration: none;
-    color: #fff;
-}
+
+
+
+
+
+
+

@@ -1,14 +1,9 @@
-
+@import "./../../common/styles/container";
 .contact {
-    background: #416e1d;
     display: flex;
     justify-content: center;
 }
-.container {
-    width: 80%;
-    border: 1px solid;
 
-}
 .title {
     text-align: center;
     margin: 0;
@@ -16,7 +11,6 @@
 }
 .form {
     margin: 0 auto;
-    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -27,7 +21,5 @@ input {
 }
 textarea {
     padding: 15px;
-    height: 100px;
     resize: none;
-
 }
