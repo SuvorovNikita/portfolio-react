@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.013a0dac.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.ffded281.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.ffded281.chunk.js.map",
-    "runtime-main.js": "/portfolio-react/static/js/runtime-main.13769744.js",
-    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.13769744.js.map",
-    "static/js/2.d04252dd.chunk.js": "/portfolio-react/static/js/2.d04252dd.chunk.js",
-    "static/js/2.d04252dd.chunk.js.map": "/portfolio-react/static/js/2.d04252dd.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.c7a7dd89.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.06a17468.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.06a17468.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.31a63323.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.31a63323.js.map",
+    "static/js/2.b403bfda.chunk.js": "/portfolio-react/static/js/2.b403bfda.chunk.js",
+    "static/js/2.b403bfda.chunk.js.map": "/portfolio-react/static/js/2.b403bfda.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.89572487c304798965d6744b02c2e384.js": "/portfolio-react/precache-manifest.89572487c304798965d6744b02c2e384.js",
+    "precache-manifest.6f59cfcb1f9fd194deacb36f25c835ec.js": "/portfolio-react/precache-manifest.6f59cfcb1f9fd194deacb36f25c835ec.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.013a0dac.chunk.css.map": "/portfolio-react/static/css/main.013a0dac.chunk.css.map",
-    "static/js/2.d04252dd.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.d04252dd.chunk.js.LICENSE.txt",
+    "static/css/main.c7a7dd89.chunk.css.map": "/portfolio-react/static/css/main.c7a7dd89.chunk.css.map",
+    "static/js/2.b403bfda.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.b403bfda.chunk.js.LICENSE.txt",
     "static/media/obito.png": "/portfolio-react/static/media/obito.72bb33bd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.13769744.js",
-    "static/js/2.d04252dd.chunk.js",
-    "static/css/main.013a0dac.chunk.css",
-    "static/js/main.ffded281.chunk.js"
+    "static/js/runtime-main.31a63323.js",
+    "static/js/2.b403bfda.chunk.js",
+    "static/css/main.c7a7dd89.chunk.css",
+    "static/js/main.06a17468.chunk.js"
   ]
 }
