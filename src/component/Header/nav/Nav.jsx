@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import styles from "./Nav.module.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faTelegramPlane, faVk} from "@fortawesome/free-brands-svg-icons";
+import {faTelegramPlane, faVk} from "@fortawesome/free-brands-svg-icons";
 
 const Nav = () => {
 
@@ -9,7 +9,7 @@ const Nav = () => {
         {isActive: false}
     );
 
-    let mobileMenuActive = mobile.isActive ? styles.link : styles.menuMobile
+    let mobileMenuActive = mobile.isActive ? styles.link : styles.menuMobile;
 
     function activeMobile() {
         setMobile({isActive: !mobile.isActive})
@@ -23,10 +23,10 @@ const Nav = () => {
                     <a className={styles.link} href=".#">Skills</a>
                     <a className={styles.link} href=".#">Project</a>
                     <a className={styles.link} href=".#">Contacts</a>
-                    <a className={styles.link}  href='https://t.me/SuvorovNA'>
+                    <a className={styles.link} target='_blank' href='https://t.me/SuvorovNA'>
                         <FontAwesomeIcon className={styles.reactIcon} icon={faTelegramPlane}/>
                     </a>
-                    <a className={styles.link} href='https://vk.com/mr_p0'>
+                    <a className={styles.link} target='_blank' href='https://vk.com/mr_p0'>
                         <FontAwesomeIcon className={styles.reactIcon} icon={faVk}/>
                     </a>
 
