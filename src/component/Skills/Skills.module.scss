@@ -1,9 +1,9 @@
 @import "./../../common/styles/container";
+@import "./../../common/styles/sass/mixins";
 
 .skills {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
+    @include padding;
 }
 
 .card {
@@ -20,7 +20,6 @@
 }
 
 .title {
-
     margin: 0;
     border: 1px solid;
     text-align: center;

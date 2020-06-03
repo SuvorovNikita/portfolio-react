@@ -1,25 +1,30 @@
 @import "./../../common/styles/container";
+@import './../../common/styles/sass/variables';
+@import './../../common/styles/sass/mixins';
+
 .contact {
-    display: flex;
-    justify-content: center;
+  @include padding;
 }
 
 .title {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 
 }
+
 .form {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
+
 input {
-    padding: 15px;
-    margin-bottom: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
 
 }
+
 textarea {
-    padding: 15px;
-    resize: none;
+  padding: 15px;
+  resize: none;
 }

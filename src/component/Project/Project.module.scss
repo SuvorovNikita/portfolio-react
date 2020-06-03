@@ -1,12 +1,10 @@
 @import './../../common/styles/sass/variables';
+@import './../../common/styles/sass/mixins';
 @import "./../../common/styles/container";
 
 .project {
-  display: flex;
-  flex-direction: column;
-
+  @include padding;
   .container {
-
 
     .wrapper {
       flex-wrap: wrap;
