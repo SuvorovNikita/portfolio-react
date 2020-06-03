@@ -1,22 +1,44 @@
+@import './../../../common/styles/sass/mixins';
+@import './../../../common/styles/sass/variables';
+
 .cardItem {
-    border: 1px solid;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 15px;
+  @include col;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .icon {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .name {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  @include text($fontTitle, 18px, 26px, 0);
+  color: $textColor;
 }
 
 .description {
-    text-align: center;
+  text-align: center;
+  @include text($fontTitle, 16px, 1.5, 400);
+  color: $textSecondColor;
+}
+
+.iconBox {
+  width: 80px;
+  height: 80px;
+  background: #585858;
+  margin: 0 auto 25px;
+  @include flexCenter;
+  transform: rotate(45deg);
+  color: $textColorAlt;
+  transition: all .2s linear;
+  opacity: 0.8;
+
+  &:hover {
+    color: #61dafb;
+  }
 }

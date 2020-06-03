@@ -2,25 +2,29 @@
 @import "./../../common/styles/sass/mixins";
 
 .skills {
-
-    @include padding;
+  @include padding;
 }
 
 .card {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 600px) {
-    .card {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .title {
-    margin: 0;
-    border: 1px solid;
-    text-align: center;
+  margin: 0;
+  border: 1px solid;
+  text-align: center;
+}
+
+.reactIcon {
+  @include subText($fontTitle,55px,400);
+  transform: rotate(-45deg);
 }

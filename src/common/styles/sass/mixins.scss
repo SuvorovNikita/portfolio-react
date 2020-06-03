@@ -8,14 +8,22 @@
   color: $textColor;
 }
 
-
 @mixin subText($fontFamily,$fontSize,$fontWeight) {
   font-family: $fontFamily;
   font-size: $fontSize;
   font-weight: $fontWeight;
 }
 
-
 @mixin padding (){
   padding: 50px 0;
+}
+@mixin col () {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@mixin flexCenter(){
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
