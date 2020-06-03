@@ -14,15 +14,16 @@
   font-weight: $fontWeight;
 }
 
-@mixin padding (){
+@mixin padding() {
   padding: 50px 0;
 }
-@mixin col () {
+
+@mixin col() {
   padding: 0 15px;
   margin: 0 auto;
 }
 
-@mixin flexCenter(){
+@mixin flexCenter() {
   display: flex;
   justify-content: center;
   align-items: center;

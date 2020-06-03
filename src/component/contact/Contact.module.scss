@@ -4,27 +4,14 @@
 
 .contact {
   @include padding;
+  @include flexCenter;
 }
 
 .title {
   text-align: center;
   margin: 0;
-
 }
 
-.form {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
 
-input {
-  padding: 15px;
-  margin-bottom: 20px;
 
-}
 
-textarea {
-  padding: 15px;
-  resize: none;
-}

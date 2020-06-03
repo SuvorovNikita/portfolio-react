@@ -2,8 +2,8 @@ import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHtml5, faReact} from "@fortawesome/free-brands-svg-icons";
 
-import CardItem from "./CardItem/CardItem";
-import Title from "../../common/Title/title";
+import CardItem from "./cardItem/CardItem";
+import Title from "../../common/title/title";
 
 import styles from "./Skills.module.scss";
 

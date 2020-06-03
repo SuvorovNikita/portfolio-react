@@ -1,14 +1,18 @@
 import React from "react";
-import ProjectItem from "./CardItem/ProjectItem";
-import Title from "../../common/Title/title";
-import obito from './../../assets/img/obito.png';
+import ProjectItem from "./cardItem/ProjectItem";
+import Title from "../../common/title/title";
+import cat from './../../assets/img/cat.jpg';
+import books from './../../assets/img/books.jpg';
 
 
 import styles from "./Project.module.scss";
 
 const Project = () => {
     const social = {
-        backgroundImage: `url(${obito})`
+        backgroundImage: `url(${cat})`
+    };
+    const book = {
+        backgroundImage: `url(${books})`
     };
     return (
         <div className={styles.project}>
@@ -22,7 +26,7 @@ const Project = () => {
                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 '/>
                     <ProjectItem
-                        style={social}
+                        style={book}
                         title='Todo list'
                         subText='Lorem ipsum dolor sit amet, consectetur adipiscing elit '/>
                 </div>

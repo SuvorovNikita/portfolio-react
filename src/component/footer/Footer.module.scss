@@ -4,11 +4,13 @@
 
 .footer {
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .title {
   text-align: center;
+  @include text($fontTitle, 18px, 0, 700);
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 600px) {
@@ -22,6 +24,8 @@
 
 .copyring {
   text-align: center;
+  @include text($fontTitle, 16px, 1.5, 400);
+  color: $textSecondColor;
 }
 
 .link {
@@ -30,4 +34,9 @@
 
 .link:last-child {
   margin-right: 0;
+}
+
+.social{
+  text-align: center;
+  margin-bottom: 25px;
 }

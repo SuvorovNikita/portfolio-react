@@ -1,0 +1,10 @@
+@import "./../../styles/sass/mixins";
+@import "./../../styles/sass/variables";
+
+.textarea {
+  resize: none;
+  outline: none;
+  width: 500px;
+  padding: 12px;
+  @include text($fontTitle, 13px, 20px, 400);
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./ProjectItem.module.scss";
+import Button from "../../../common/ui/button/button";
 
 const ProjectItem = (props) => {
     let {title, subText} = props;
     return (
         <div className={styles.cardItem}>
             <div className={styles.img} style={props.style}>
-                <a className={styles.btn} href="#."><h3 className={styles.name}>Смотреть</h3></a>
+             <Button linkName='Смотреть'/>
             </div>
             <div className={styles.projectInfo}>
                 <h3 className={styles.projectTitle}>{title}</h3>
