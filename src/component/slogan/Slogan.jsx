@@ -7,8 +7,8 @@ const Slogan = () => {
     return (
         <div className={styles.slogan}>
             <div className={styles.container}>
-                <Title text='Рассматриваю варианты удаленной работы'/>
-                <Button linkName='Найти меня'/>
+                <Title text='Now I consider variants of telework.'/>
+                <Button linkName='How to find me'/>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 @import "./../../common/styles/container";
-@import './../../common/styles/sass/variables';
 @import './../../common/styles/sass/mixins';
+@import "./../../common/styles/sass/variables";
 
 .footer {
   padding-top: 50px;
@@ -36,7 +36,21 @@
   margin-right: 0;
 }
 
-.social{
+.social {
   text-align: center;
   margin-bottom: 25px;
+
+  a {
+    color: $textSecondColor;
+
+    &:hover {
+      color: $textColor;
+    }
+  }
+}
+
+.reactIcon {
+  font-size: 18px;
+  margin-right: 10px;
+
 }

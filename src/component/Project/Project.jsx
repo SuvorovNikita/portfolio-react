@@ -17,7 +17,7 @@ const Project = () => {
     return (
         <div className={styles.project}>
             <div className={styles.container}>
-                <Title text='Мои работы'/>
+                <Title text='My works'/>
                 <div className={styles.wrapper}>
                     <ProjectItem
                         style={social}
@@ -25,6 +25,7 @@ const Project = () => {
                         subText='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 '/>
+
                     <ProjectItem
                         style={book}
                         title='Todo list'

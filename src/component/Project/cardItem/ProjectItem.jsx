@@ -7,7 +7,7 @@ const ProjectItem = (props) => {
     return (
         <div className={styles.cardItem}>
             <div className={styles.img} style={props.style}>
-             <Button linkName='Смотреть'/>
+             <Button linkName='LOOK'/>
             </div>
             <div className={styles.projectInfo}>
                 <h3 className={styles.projectTitle}>{title}</h3>

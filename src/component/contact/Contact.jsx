@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <div className={styles.contact}>
             <div className={styles.container}>
-                <Title text='Контакты'/>
+                <Title text='Contacts'/>
                 <div className={styles.form}>
                     <Input name='First Name'/>
                     <Input lastName='Last Name'/>
