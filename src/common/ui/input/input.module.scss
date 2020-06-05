@@ -2,7 +2,8 @@
 @import "./../../styles/sass/variables";
 
 .input {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   padding: 12px;
   outline: none;
   margin-bottom: 25px;

@@ -1,7 +1,9 @@
 import React, {useState} from "react";
-import styles from "./Nav.module.scss";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {Link} from "react-scroll";
 import {faTelegramPlane, faVk} from "@fortawesome/free-brands-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+
+import styles from "./Nav.module.scss";
 
 const Nav = () => {
 
@@ -20,16 +22,15 @@ const Nav = () => {
             <nav className={styles.nav}>
                 <a onClick={activeMobile} className={styles.btnMenu}>Menu</a>
                 <div className={mobileMenuActive}>
-                    <a className={styles.link} href="#skills">Skills</a>
-                    <a className={styles.link} href="#work">Project</a>
-                    <a className={styles.link} href="#footer">Contacts</a>
-                    <a className={styles.link} target='_blank' href='https://t.me/SuvorovNA'>
+                    <Link className={styles.link}  smooth={true} to="skills">Skills</Link>
+                    <Link className={styles.link}  smooth={true} to="work">Project</Link>
+                    <Link className={styles.link}  smooth={true} to="footer">Contacts</Link>
+                    <Link className={styles.link}  target='_blank' href='https://t.me/SuvorovNA'>
                         <FontAwesomeIcon className={styles.reactIcon} icon={faTelegramPlane}/>
-                    </a>
-                    <a className={styles.link} target='_blank' href='https://vk.com/mr_p0'>
+                    </Link>
+                    <Link className={styles.link} target='_blank' href='https://vk.com/mr_p0'>
                         <FontAwesomeIcon className={styles.reactIcon} icon={faVk}/>
-                    </a>
-
+                    </Link>
                 </div>
 
             </nav>

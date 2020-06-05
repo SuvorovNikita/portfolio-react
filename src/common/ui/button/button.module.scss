@@ -7,28 +7,28 @@
   .btn {
     cursor: pointer;
     border: 2px solid $textColor;
-    padding: 5px 27px 4px 28px;
+    padding: 14px 50px 14px 50px;
     position: relative;
     z-index: 2;
     border-radius: 50px;
     line-height: inherit;
     outline: none;
     transition: all .2s linear;
+    color: $primaryColor;
+    &:hover {
+      background: $textColor;
 
-    .name {
-      text-align: center;
-      @include text($fontTitle, 11px, 0, 400);
-      color: $primaryColor;
-      transition: all .2s linear;
-
-      &:hover {
+      a {
         color: $bgColor;
       }
     }
-
-    &:hover {
-      background: $textColor;
+    .name {
+      text-align: center;
+      @include text($fontTitle, 15px, 0, 400);
+      transition: all .2s linear;
     }
+
+
   }
 }
 
