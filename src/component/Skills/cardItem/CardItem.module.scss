@@ -5,40 +5,39 @@
   @include col;
   padding-top: 19px;
 
-}
+  .iconBox {
+    width: 80px;
+    height: 80px;
+    background: #585858;
+    margin: 0 auto 25px;
+    @include flexCenter;
+    transform: rotate(45deg);
+    color: $textColorAlt;
+    transition: all .2s linear;
+    opacity: 0.8;
 
-.icon {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+    &:hover {
+      color: #61dafb;
+    }
+  }
 
-.name {
-  text-align: center;
-  margin-bottom: 15px;
-  margin-top: 30px;
-  @include text($fontTitle, 18px, 26px, 0);
-  color: $textColor;
-}
+  .name {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    @include text($fontTitle, 18px, 26px, 0);
+    color: $textColor;
+  }
 
-.description {
-  text-align: center;
-  @include text($fontTitle, 16px, 1.5, 400);
-  color: $textSecondColor;
-}
-
-.iconBox {
-  width: 80px;
-  height: 80px;
-  background: #585858;
-  margin: 0 auto 25px;
-  @include flexCenter;
-  transform: rotate(45deg);
-  color: $textColorAlt;
-  transition: all .2s linear;
-  opacity: 0.8;
-
-  &:hover {
-    color: #61dafb;
+  .description {
+    text-align: center;
+    @include text($fontTitle, 16px, 1.5, 400);
+    color: $textSecondColor;
   }
 }
+
+
+
+
+
+

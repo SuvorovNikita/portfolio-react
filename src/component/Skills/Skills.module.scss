@@ -3,20 +3,17 @@
 
 .skills {
   @include padding;
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+
+    .reactIcon {
+      @include subText($fontTitle, 55px, 400);
+      transform: rotate(-45deg);
+    }
+  }
 }
 
-.card {
-  display: flex;
-  justify-content: space-between;
-}
 
-.title {
-  margin: 0;
-  border: 1px solid;
-  text-align: center;
-}
 
-.reactIcon {
-  @include subText($fontTitle,55px,400);
-  transform: rotate(-45deg);
-}

@@ -17,14 +17,16 @@
   .link {
     cursor: pointer;
     text-decoration: none;
-    padding: 0 15px;
+    margin: 0 15px;
     @include subText($fontTitle, 18px, 400);
     text-transform: capitalize;
     color: $textSecondColor;
+
     &:last-child {
       padding-right: 0;
     }
   }
+
   .menuMobile {
     @media (max-width: 768px) {
       display: none;

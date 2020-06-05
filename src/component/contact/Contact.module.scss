@@ -4,18 +4,15 @@
 
 .contact {
   @include padding;
+
+  .form {
+    margin: 0 auto;
+    width: 500px;
+  }
+
 }
 
-.form {
-  margin: 0 auto;
-  width: 500px;
 
-}
-
-.title {
-  text-align: center;
-  margin: 0;
-}
 
 
 
