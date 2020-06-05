@@ -12,9 +12,9 @@ const Contact = () => {
             <div className={styles.container}>
                 <Title text='Contacts'/>
                 <div className={styles.form}>
-                    <Input name='First Name'/>
-                    <Input lastName='Last Name'/>
-                    <Textarea placeholder='Message'/>
+                    <Input  placeholder='имя' />
+                    <Input  placeholder='Фа'/>
+                    <Textarea placeholder='Введите сообщение '/>
                 </div>
             </div>
         </div>

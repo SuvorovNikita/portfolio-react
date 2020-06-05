@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./input.module.scss"
 
-const Input = (props) => {
+const Input = ({ placeholder}) => {
     return (
-            <input  className={styles.input} type="text"/>
+            <input placeholder={placeholder} className={styles.input} type="text"/>
     )
 }
 

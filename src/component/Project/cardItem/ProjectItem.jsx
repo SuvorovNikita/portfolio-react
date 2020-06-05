@@ -3,11 +3,11 @@ import styles from "./ProjectItem.module.scss";
 import Button from "../../../common/ui/button/button";
 
 const ProjectItem = (props) => {
-    let {title, subText} = props;
+    let {title, subText,href} = props;
     return (
         <div className={styles.cardItem}>
             <div className={styles.img} style={props.style}>
-             <Button linkName='LOOK'/>
+             <Button linkName='LOOK' href={href} />
             </div>
             <div className={styles.projectInfo}>
                 <h3 className={styles.projectTitle}>{title}</h3>
