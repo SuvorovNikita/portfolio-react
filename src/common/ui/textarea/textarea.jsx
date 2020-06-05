@@ -3,7 +3,7 @@ import styles from "./textarea.module.scss";
 
 const Textarea = (props) => {
     return (
-            <textarea className={styles.textarea}>{props.placeholder}</textarea>
+            <textarea className={styles.textarea}></textarea>
     )
 }
 
