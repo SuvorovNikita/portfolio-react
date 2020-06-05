@@ -5,7 +5,7 @@ import {faGithub, faInstagram, faTelegramPlane, faVk} from "@fortawesome/free-br
 
 const Footer = () => {
     return (
-        <div className={styles.footer}>
+        <div className={styles.footer} id='footer'>
             <div className={styles.container}>
                 <h2 className={styles.title}>Nikita</h2>
                 <div className={styles.social}>

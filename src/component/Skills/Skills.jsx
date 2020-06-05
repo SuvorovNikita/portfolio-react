@@ -10,7 +10,7 @@ import styles from "./Skills.module.scss";
 
 const Skills = () => {
     return (
-        <div className={styles.skills}>
+        <div className={styles.skills} id='skills'>
             <div className={styles.container}>
                 <Title text='Skills'/>
                 <div className={styles.card}>

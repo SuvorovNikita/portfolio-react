@@ -8,6 +8,7 @@ import books from './../../assets/img/books.jpg';
 import styles from "./Project.module.scss";
 
 const Project = () => {
+
     const social = {
         backgroundImage: `url(${cat})`
     };
@@ -15,7 +16,7 @@ const Project = () => {
         backgroundImage: `url(${books})`
     };
     return (
-        <div className={styles.project}>
+        <div className={styles.project} id='work'>
             <div className={styles.container}>
                 <Title text='My works'/>
                 <div className={styles.wrapper}>

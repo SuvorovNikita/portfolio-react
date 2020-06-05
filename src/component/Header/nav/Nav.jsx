@@ -20,9 +20,9 @@ const Nav = () => {
             <nav className={styles.nav}>
                 <a onClick={activeMobile} className={styles.btnMenu}>Menu</a>
                 <div className={mobileMenuActive}>
-                    <a className={styles.link} href=".#">Skills</a>
-                    <a className={styles.link} href=".#">Project</a>
-                    <a className={styles.link} href=".#">Contacts</a>
+                    <a className={styles.link} href="#skills">Skills</a>
+                    <a className={styles.link} href="#work">Project</a>
+                    <a className={styles.link} href="#footer">Contacts</a>
                     <a className={styles.link} target='_blank' href='https://t.me/SuvorovNA'>
                         <FontAwesomeIcon className={styles.reactIcon} icon={faTelegramPlane}/>
                     </a>
