@@ -20,15 +20,10 @@
     @include subText($fontTitle, 18px, 400);
     text-transform: capitalize;
     color: $textSecondColor;
-    @media (max-width: 768px) {
-
-    }
-
     &:last-child {
       padding-right: 0;
     }
   }
-
   .menuMobile {
     @media (max-width: 768px) {
       display: none;
