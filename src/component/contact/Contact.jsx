@@ -5,17 +5,19 @@ import Input from "../../common/ui/input/input";
 import Textarea from "../../common/ui/textarea/textarea";
 
 import styles from "./Contact.module.scss";
+import Button from "../../common/ui/button/button";
 
 const Contact = () => {
     return (
-        <div className={styles.contact}>
+        <div className={styles.contact} id='contact'>
             <div className={styles.container}>
                 <Title text='Contacts'/>
-                <div className={styles.form}>
-                    <Input  placeholder='Name' />
-                    <Input  placeholder='Surname'/>
+                <form className={styles.form}>
+                    <Input placeholder='Name'/>
+                    <Input placeholder='Surname'/>
                     <Textarea placeholder='Enter your message'/>
-                </div>
+                    <Button  linkName='Submit'/>
+                </form>
             </div>
         </div>
     )

@@ -4,6 +4,7 @@
 
 .contact {
   @include padding;
+
   .form {
     margin: 0 auto;
     width: 500px;
@@ -12,6 +13,10 @@
     align-items: center;
     @media screen and (max-width: 560px) {
       width: 100%;
+    }
+
+    Button {
+      margin-top: 25px;
     }
   }
 }

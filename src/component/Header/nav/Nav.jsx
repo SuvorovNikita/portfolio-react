@@ -23,13 +23,7 @@ const Nav = () => {
                 <div className={mobileMenuActive}>
                     <Link className={styles.link} smooth={true} to="skills">Skills</Link>
                     <Link className={styles.link} smooth={true} to="work">Project</Link>
-                    <Link className={styles.link} smooth={true} to="footer">Contacts</Link>
-                    <Link className={styles.link} target='_blank' href='https://t.me/SuvorovNA'>
-                        <FontAwesomeIcon className={styles.reactIcon} icon={faTelegramPlane}/>
-                    </Link>
-                    <Link className={styles.link} target='_blank' href='https://vk.com/mr_p0'>
-                        <FontAwesomeIcon className={styles.reactIcon} icon={faVk}/>
-                    </Link>
+                    <Link className={styles.link} smooth={true} to="contact">Contacts</Link>
                 </div>
             </nav>
     )
