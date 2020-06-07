@@ -15,6 +15,7 @@
     outline: none;
     transition: all .2s linear;
     color: $primaryColor;
+
     &:hover {
       background: $textColor;
 
@@ -22,13 +23,12 @@
         color: $bgColor;
       }
     }
+
     .name {
       text-align: center;
-      @include text($fontTitle, 15px, 0, 400);
+      @include text($fontTitle, 15px, 0, 700);
       transition: all .2s linear;
     }
-
-
   }
 }
 

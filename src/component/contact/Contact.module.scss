@@ -8,8 +8,12 @@
   .form {
     margin: 0 auto;
     width: 500px;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 560px) {
+      width: 100%;
+    }
   }
-
 }
 
 
