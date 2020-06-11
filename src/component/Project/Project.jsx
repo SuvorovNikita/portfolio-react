@@ -21,7 +21,7 @@ const Project = () => {
                 <Title text='My works'/>
                 <div className={styles.wrapper}>
                     <ProjectItem
-                        href="https://images.wallpaperscraft.com/image/cat_wall_peeking_150278_1280x720.jpg"
+                        href="https://suvorovnikita.github.io/counter/"
                         style={social}
                         title='Counter'
                         subText='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
