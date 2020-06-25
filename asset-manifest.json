@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.3961fff6.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.bcdec9f6.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.bcdec9f6.chunk.js.map",
-    "runtime-main.js": "/portfolio-react/static/js/runtime-main.13769744.js",
-    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.13769744.js.map",
-    "static/js/2.bbbc4165.chunk.js": "/portfolio-react/static/js/2.bbbc4165.chunk.js",
-    "static/js/2.bbbc4165.chunk.js.map": "/portfolio-react/static/js/2.bbbc4165.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.da07d6b9.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.4bc8b5c6.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.4bc8b5c6.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.31a63323.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.31a63323.js.map",
+    "static/js/2.6b9f27fe.chunk.js": "/portfolio-react/static/js/2.6b9f27fe.chunk.js",
+    "static/js/2.6b9f27fe.chunk.js.map": "/portfolio-react/static/js/2.6b9f27fe.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.a5c226e73e7df42dc796fe7626534748.js": "/portfolio-react/precache-manifest.a5c226e73e7df42dc796fe7626534748.js",
+    "precache-manifest.35cc6ccb8557a34991e0027631678be4.js": "/portfolio-react/precache-manifest.35cc6ccb8557a34991e0027631678be4.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.3961fff6.chunk.css.map": "/portfolio-react/static/css/main.3961fff6.chunk.css.map",
-    "static/js/2.bbbc4165.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.bbbc4165.chunk.js.LICENSE.txt",
+    "static/css/main.da07d6b9.chunk.css.map": "/portfolio-react/static/css/main.da07d6b9.chunk.css.map",
+    "static/js/2.6b9f27fe.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.6b9f27fe.chunk.js.LICENSE.txt",
     "static/media/books.jpg": "/portfolio-react/static/media/books.7293573c.jpg",
     "static/media/cat.jpg": "/portfolio-react/static/media/cat.ea3dcdb3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.13769744.js",
-    "static/js/2.bbbc4165.chunk.js",
-    "static/css/main.3961fff6.chunk.css",
-    "static/js/main.bcdec9f6.chunk.js"
+    "static/js/runtime-main.31a63323.js",
+    "static/js/2.6b9f27fe.chunk.js",
+    "static/css/main.da07d6b9.chunk.css",
+    "static/js/main.4bc8b5c6.chunk.js"
   ]
 }
