@@ -29,7 +29,7 @@ const Project = () => {
                                 '/>
 
                     <ProjectItem
-                        href='https://images.wallpaperscraft.com/image/books_shelf_reading_125442_1280x720.jpg'
+                        href='https://suvorovnikita.github.io/todo/'
                         style={book}
                         title='Todo list'
                         subText='Lorem ipsum dolor sit amet, consectetur adipiscing elit '/>

@@ -16,7 +16,7 @@ const Contact = () => {
                     <Input placeholder='Name'/>
                     <Input placeholder='Surname'/>
                     <Textarea placeholder='Enter your message'/>
-                    <Button  linkName='Submit'/>
+                    <Button  linkName='Send'/>
                 </form>
             </div>
         </div>

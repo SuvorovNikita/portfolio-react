@@ -8,7 +8,7 @@ const Slogan = () => {
         <div className={styles.slogan}>
             <div className={styles.container}>
                 <Title text='Now I consider variants of distant work.'/>
-                <Button linkName='Find me'/>
+                <Button linkName='Find me' href='https://t.me/SuvorovNA'/>
             </div>
         </div>
     )
