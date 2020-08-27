@@ -1,6 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faHtml5, faJava, faReact,} from "@fortawesome/free-brands-svg-icons";
+import {faHtml5, faJs, faReact,} from "@fortawesome/free-brands-svg-icons";
 
 import CardItem from "./cardItem/CardItem";
 import Title from "../../common/title/title";
@@ -21,7 +21,7 @@ const Skills = () => {
                     <CardItem name='Redux'
                               FontAwesomeIcon={<FontAwesomeIcon className={styles.skillsCard__reactIcon} icon={faReact}/>}/>
                     <CardItem name='TypeScript'
-                              FontAwesomeIcon={<FontAwesomeIcon className={styles.skillsCard__reactIcon} icon={faJava}/>}/>
+                              FontAwesomeIcon={<FontAwesomeIcon className={styles.skillsCard__reactIcon} icon={faJs}/>}/>
                 </div>
             </div>
         </div>
