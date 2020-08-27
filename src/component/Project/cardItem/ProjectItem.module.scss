@@ -2,7 +2,7 @@
 @import './../../../common/styles/sass/mixins';
 
 .cardItem {
-  width: 33%;
+  width: 100%;
   @include col;
 
   .cardItemImg {
@@ -13,6 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+
 
     &:after {
       position: absolute;
