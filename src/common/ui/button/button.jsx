@@ -5,11 +5,9 @@ import styles from "./button.module.scss";
 const Button = ({href, linkName}) => {
     return (
         <div className={styles.wrapper}>
-            <button className={styles.btn} link={href}>
                 <a href={href}
                    target='_blank'
-                   className={styles.name}>{linkName}</a>
-            </button>
+                   className={`${styles.name} ${styles.btn}`}>{linkName}</a>
         </div>
     )
 }

@@ -4,13 +4,13 @@
 .skills {
   @include padding;
 
-  .card {
+  .skillsCard {
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 768px) {
       flex-direction: column;
     }
-    .reactIcon {
+    .skillsCard__reactIcon {
       @include subText($fontTitle, 55px, 400);
       transform: rotate(-45deg);
     }

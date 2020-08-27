@@ -6,10 +6,10 @@ const Main = () => {
     return (
         <div className={styles.main}>
             <div className={styles.container}>
-                <div className={styles.greeting}>
+                <div className={styles.mainGreeting}>
                     <Greeting/>
                 </div>
-                <div className={styles.photo}>
+                <div className={styles.mainPhoto}>
                     <img src="" alt=""/>
                 </div>
             </div>

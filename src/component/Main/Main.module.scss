@@ -10,14 +10,14 @@
     justify-content: space-around;
     flex-wrap: wrap;
 
-    .greeting {
+    .mainGreeting {
       display: flex;
       flex-direction: column;
       padding: 0 15px;
       margin: 0 auto;
     }
 
-    .photo {
+    .mainPhoto {
       padding: 0 15px;
       margin: 0 auto;
       height: 400px;

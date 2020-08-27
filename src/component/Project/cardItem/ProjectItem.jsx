@@ -6,12 +6,12 @@ const ProjectItem = (props) => {
     let {title, subText, href} = props;
     return (
         <div className={styles.cardItem}>
-            <div className={styles.img} style={props.style}>
-                <Button linkName='LOOK' href={href}/>
+            <div className={styles.cardItemImg} style={props.style}>
+                <Button  linkName='LOOK' href={href}/>
             </div>
             <div className={styles.projectInfo}>
-                <h3 className={styles.projectTitle}>{title}</h3>
-                <p className={styles.projectText}>{subText}</p>
+                <h3 className={styles.projectInfoProjectTitle}>{title}</h3>
+                <p className={styles.projectInfoProjectText}>{subText}</p>
             </div>
         </div>
     )

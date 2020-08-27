@@ -9,7 +9,7 @@ import Button from "../../common/ui/button/button";
 
 const Contact = () => {
     return (
-        <div className={styles.contact} id='contact'>
+        <div className={styles.contact} >
             <div className={styles.container}>
                 <Title text='Contacts'/>
                 <form className={styles.form}>

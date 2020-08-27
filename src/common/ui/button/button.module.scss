@@ -4,6 +4,7 @@
 .wrapper {
   text-align: center;
 
+
   .btn {
     cursor: pointer;
     border: 2px solid $textColor;
@@ -14,13 +15,15 @@
     line-height: inherit;
     outline: none;
     transition: all .2s linear;
-    color: $primaryColor;
+    color: $bgColor;
+    background: $textColor;
 
     &:hover {
-      background: $textColor;
+      background: none;
 
-      a {
-        color: $bgColor;
+      &.btn {
+        color: $textColor;
+        font-weight: bold;
       }
     }
 

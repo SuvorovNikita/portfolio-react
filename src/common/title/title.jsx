@@ -7,7 +7,7 @@ const Title = (props) => {
     return (
             <div className={styles.title}>
                 <h2>{text}</h2>
-                <img className={styles.separator} src={separator} alt=""/>
+                <img className={styles.titleSeparator} src={separator} alt=""/>
         </div>
     )
 };

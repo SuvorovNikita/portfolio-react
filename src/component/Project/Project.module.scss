@@ -5,8 +5,7 @@
 .project {
   @include padding;
   .container {
-    .wrapper {
-      flex-wrap: wrap;
+    .projectWrapper {
       display: flex;
       justify-content: space-between;
     }
