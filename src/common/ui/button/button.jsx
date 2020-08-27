@@ -7,7 +7,7 @@ const Button = ({href, linkName}) => {
         <div className={styles.wrapper}>
                 <a href={href}
                    target='_blank'
-                   className={`${styles.name} ${styles.btn}`}>{linkName}</a>
+                   className={styles.btn}>{linkName}</a>
         </div>
     )
 }

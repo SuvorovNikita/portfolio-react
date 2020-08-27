@@ -4,7 +4,6 @@
 .wrapper {
   text-align: center;
 
-
   .btn {
     cursor: pointer;
     border: 2px solid $textColor;
@@ -20,19 +19,11 @@
 
     &:hover {
       background: none;
-
-      &.btn {
-        color: $textColor;
-        font-weight: bold;
-      }
-    }
-
-    .name {
-      text-align: center;
-      @include text($fontTitle, 15px, 0, 700);
-      transition: all .2s linear;
+      color: $bgColor;
+      border: 2px solid $bgColor;
     }
   }
+
 }
 
 

@@ -4,7 +4,26 @@
 
 .slogan {
   @include padding;
+  text-align: center;
 }
 
+.btnAlt {
+  cursor: pointer;
+  border: 2px solid $textColor;
+  padding: 14px 50px 14px 50px;
+  position: relative;
+  z-index: 2;
+  border-radius: 50px;
+  line-height: inherit;
+  outline: none;
+  transition: all .2s linear;
+  color: $bgColor;
+  background: $textColor;
+  &:hover {
+    background: $bgColor;
+    color: $textColor;
+    font-weight: bold;
+  }
+}
 
 
