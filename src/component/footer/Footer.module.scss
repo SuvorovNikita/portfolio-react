@@ -8,7 +8,7 @@
 
   .title {
     text-align: center;
-    @include text($fontTitle, 18px, 0, 700);
+    @include text($fontTitle, 18px, 1, 700);
     margin-bottom: 25px;
   }
 

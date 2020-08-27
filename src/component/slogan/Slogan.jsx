@@ -2,8 +2,6 @@ import React from "react";
 import styles from "./Slogan.module.scss";
 import Title from "../../common/title/title";
 
-
-
 const Slogan = () => {
     return (
         <div className={styles.slogan}>
