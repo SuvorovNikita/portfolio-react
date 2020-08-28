@@ -3,10 +3,36 @@
 
 .wrapper {
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+
+  &:after {
+    position: absolute;
+    content: '';
+    width: 216px;
+    height: 145px;
+    left: -40px;
+    top: -50px;
+    transform: rotate(41deg);
+    background: #444;
+    background: $textColor;
+
+  }
+
+  &:hover {
+    background: none;
+    color: $bgColor;
+    border: 2px solid #fff;
+  }
+
+  &:hover:after {
+    left: -400px;
+  }
 
   .btn {
     cursor: pointer;
-    border: 2px solid $textColor;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,18 +40,14 @@
     height: 50px;
     position: relative;
     z-index: 2;
-    border-radius: 50px;
+    color: $bgColor;
+
     line-height: inherit;
     outline: none;
     transition: all .2s linear;
-    color: $bgColor;
-    background: $textColor;
 
-    &:hover {
-      background: none;
-      color: $bgColor;
-      border: 2px solid $bgColor;
-    }
+
+
   }
 }
 
