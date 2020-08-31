@@ -6,6 +6,11 @@
   display: flex;
   justify-content: flex-end;
 
+  .navWrapper {
+    z-index: 1;
+
+  }
+
   .navBtn {
     cursor: pointer;
     display: none;
