@@ -4,32 +4,73 @@
 
 .slogan {
   @include padding;
-  text-align: center;
-}
 
-.btnAlt {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 161px;
-  height: 50px;
-  cursor: pointer;
-  border: 2px solid $textColor;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
-  border-radius: 50px;
-  line-height: inherit;
-  outline: none;
-  transition: all .2s linear;
-  color: $bgColor;
-  background: $textColor;
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 161px;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
 
-  &:hover {
-    background: $bgColor;
-    color: $textColor;
-    font-weight: bold;
+
+    &:after {
+      position: absolute;
+      content: '';
+      width: 230px;
+      height: 160px;
+      left: -40px;
+      top: -50px;
+      transform: rotate(50deg);
+      background: $textColor;
+      color: #444444;
+    }
+
+    &:hover {
+      background: none;
+      border: 2px solid $textColor;
+      color: #444444;
+    }
+
+    &:hover:after {
+      transition: 2s;
+      left: -400px;
+    }
+
+    .btnAlt {
+      z-index: 2;
+      color: $bgColor;
+    }
   }
 }
+
+//.btnAlt {
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  width: 161px;
+//  height: 50px;
+//  cursor: pointer;
+//  border: 2px solid $textColor;
+//  margin: 0 auto;
+//  position: relative;
+//  z-index: 2;
+//  border-radius: 50px;
+//  line-height: inherit;
+//  outline: none;
+//  transition: all .2s linear;
+//  color: $bgColor;
+//  background: $textColor;
+//
+//  &:hover {
+//    background: $bgColor;
+//    color: $textColor;
+//    font-weight: bold;
+//  }
+//}
 
 

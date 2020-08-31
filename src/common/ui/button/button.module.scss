@@ -10,29 +10,28 @@
   &:after {
     position: absolute;
     content: '';
-    width: 216px;
-    height: 145px;
+    width: 230px;
+    height: 160px;
     left: -40px;
     top: -50px;
-    transform: rotate(41deg);
-    background: #444;
+    transform: rotate(50deg);
     background: $textColor;
-
   }
 
   &:hover {
-    background: none;
-    color: $bgColor;
-    border: 2px solid #fff;
+    color: $textColor;
+    border: 2px solid $bgColor;
+    z-index: 1;
   }
 
   &:hover:after {
+    color: $textColor;
+    transition: 2s;
     left: -400px;
   }
 
   .btn {
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,12 +40,9 @@
     position: relative;
     z-index: 2;
     color: $bgColor;
-
     line-height: inherit;
     outline: none;
     transition: all .2s linear;
-
-
 
   }
 }

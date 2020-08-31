@@ -7,7 +7,9 @@ const Slogan = () => {
         <div className={styles.slogan}>
             <div className={styles.container}>
                 <Title text='Now I consider variants of distant work.'/>
-                <a href='https://t.me/SuvorovNA' className={styles.btnAlt}>Find me</a>
+                <div className={styles.wrapper}>
+                    <a href='https://t.me/SuvorovNA' className={styles.btnAlt}>Find me</a>
+                </div>
             </div>
         </div>
     )
