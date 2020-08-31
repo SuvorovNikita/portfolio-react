@@ -8,7 +8,6 @@
 
   .navWrapper {
     z-index: 1;
-
   }
 
   .navBtn {
@@ -36,12 +35,13 @@
     }
   }
 
-  .menuMobile {
-    @media (max-width: 768px) {
-      display: none;
-    }
+  @media screen and (max-width: 678px) {
+    display: none;
   }
 }
+
+
+
 
 
 
