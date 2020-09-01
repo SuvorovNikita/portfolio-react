@@ -11,6 +11,7 @@ import Footer from "./component/footer/Footer";
 import styles from './App.module.scss'
 
 
+
 function App() {
     return (
         <div className={styles.app}>
@@ -21,6 +22,7 @@ function App() {
             <Slogan/>
             {/*<Contact/>*/}
             <Footer/>
+
         </div>
     );
 }

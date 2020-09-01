@@ -6,7 +6,7 @@ import Tilt from 'react-tilt'
 
 const Main = () => {
     return (
-        <div className={styles.main}>
+        <div className={styles.main} >
             <div className={styles.container}>
                 <div className={styles.mainGreeting}>
                     <Greeting/>

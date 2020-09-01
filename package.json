@@ -19,6 +19,7 @@
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
     "react-slick": "^0.27.10",
+    "react-svg": "^11.0.37",
     "react-tilt": "^0.1.4",
     "react-typing-effect": "^2.0.3"
   },

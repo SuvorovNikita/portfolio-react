@@ -1,7 +1,7 @@
 @import "./../../common/styles/container";
 
 .main {
-  padding-bottom: 50px;
+  padding: 50px 0;
 
 
   .container {
@@ -24,6 +24,9 @@
       width: 300px;
       border-radius: 50px;
     }
+  }
+  @media screen and (max-width: 678px) {
+    padding-top: 0;
   }
 }
 

@@ -5,10 +5,10 @@ import Mobilemenu from "./mobile-menu/Mobilemenu";
 
 const Header = () => {
     return (
-        <div className={styles.header}>
+        <div className={styles.header} id='main'>
             <div className={styles.container}>
-               <Nav/>
-               <Mobilemenu/>
+                <Nav/>
+                <Mobilemenu/>
             </div>
         </div>
     )
