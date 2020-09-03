@@ -19,7 +19,6 @@
     box-sizing: border-box;
 
 
-
     &:after {
       position: absolute;
       content: '';
@@ -29,20 +28,19 @@
       top: -50px;
       transform: rotate(50deg);
       background: $textColor;
-      color: #444444;
+
     }
 
     &:hover {
       background: none;
       border: 2px solid $textColor;
-      color: #444444;
-
     }
 
     &:hover:after {
       transition: 2s;
       left: -400px;
     }
+
     .btnAlt {
       z-index: 2;
       color: $bgColor;
