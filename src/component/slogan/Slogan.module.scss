@@ -17,7 +17,7 @@
     margin: 0 auto;
     cursor: pointer;
     box-sizing: border-box;
-
+    text-transform: uppercase;
 
     &:after {
       position: absolute;
@@ -31,9 +31,22 @@
 
     }
 
+    a {
+      color: $bgColor;
+      position: relative;
+      z-index: 2;
+    }
+
     &:hover {
       background: none;
+      transition: 0.2s 0.5s;
       border: 2px solid $textColor;
+
+      a {
+        color: #444;
+        transition: 2s;
+        font-weight: bold;
+      }
     }
 
     &:hover:after {
@@ -41,10 +54,10 @@
       left: -400px;
     }
 
-    .btnAlt {
-      z-index: 2;
-      color: $bgColor;
-    }
+    //
+    //.btnAlt {
+    //  color: $bgColor;
+    //}
   }
 }
 

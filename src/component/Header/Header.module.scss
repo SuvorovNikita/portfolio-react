@@ -2,7 +2,11 @@
 
 .header {
   padding: 50px 0;
-
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 9999;
 
   @media screen and (max-width: 678px) {
     padding-bottom: 50px;

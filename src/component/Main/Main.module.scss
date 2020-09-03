@@ -1,7 +1,8 @@
 @import "./../../common/styles/container";
 
 .main {
-  padding: 50px 0;
+  padding: 130px 0 50px;
+
 
   .container {
     display: flex;
@@ -22,8 +23,11 @@
       height: 400px;
       width: 300px;
       border-radius: 50px;
+      position: relative;
+
     }
   }
+
   @media screen and (max-width: 678px) {
     padding-top: 0;
   }

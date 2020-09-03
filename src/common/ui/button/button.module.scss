@@ -22,7 +22,7 @@
     color: $textColor;
     border: 2px solid $bgColor;
     z-index: 1;
-
+    transition: 0.2s 0.5s;
   }
 
   &:hover:after {
