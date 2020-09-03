@@ -16,6 +16,8 @@
     height: 50px;
     margin: 0 auto;
     cursor: pointer;
+    box-sizing: border-box;
+
 
 
     &:after {
@@ -34,13 +36,13 @@
       background: none;
       border: 2px solid $textColor;
       color: #444444;
+
     }
 
     &:hover:after {
       transition: 2s;
       left: -400px;
     }
-
     .btnAlt {
       z-index: 2;
       color: $bgColor;
@@ -48,29 +50,5 @@
   }
 }
 
-//.btnAlt {
-//  display: flex;
-//  align-items: center;
-//  justify-content: center;
-//  width: 161px;
-//  height: 50px;
-//  cursor: pointer;
-//  border: 2px solid $textColor;
-//  margin: 0 auto;
-//  position: relative;
-//  z-index: 2;
-//  border-radius: 50px;
-//  line-height: inherit;
-//  outline: none;
-//  transition: all .2s linear;
-//  color: $bgColor;
-//  background: $textColor;
-//
-//  &:hover {
-//    background: $bgColor;
-//    color: $textColor;
-//    font-weight: bold;
-//  }
-//}
 
 
