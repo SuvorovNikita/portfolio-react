@@ -3,12 +3,12 @@ import ProjectItem from "./cardItem/ProjectItem";
 import Title from "../../common/title/title";
 import cat from './../../assets/img/cat.jpg';
 import books from './../../assets/img/books.jpg';
-import socialNet from './../../assets/img/social.jpg';
+import socialNet from './../../assets/img/cat3.jpg';
 
 
 import styles from "./Project.module.scss";
 
-import Bounce from "react-reveal";
+
 import Fade from "react-reveal";
 
 const Project = () => {

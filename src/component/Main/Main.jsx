@@ -11,11 +11,12 @@ const Main = () => {
                 <div className={styles.mainGreeting}>
                     <Greeting/>
                 </div>
+                <div className={styles.wrapper}>
                 <Tilt className="Tilt" options={{ max : 25 }}  >
-                    <div>
                         <img  className={styles.mainPhoto}  src="https://pm1.narvii.com/6435/f17b8adac6d03abaf188a7e3be5f7bce10b53971_hq.jpg" alt=""/>
-                    </div>
+
                 </Tilt>
+                </div>
             </div>
         </div>
     )

@@ -7,9 +7,6 @@ import CardItem from "./cardItem/CardItem";
 import Title from "../../common/title/title";
 
 import styles from "./Skills.module.scss";
-import Flip from "react-reveal";
-import Fade from "react-reveal";
-
 
 const Skills = () => {
 

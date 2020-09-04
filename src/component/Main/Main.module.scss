@@ -3,28 +3,34 @@
 .main {
   padding: 130px 0 50px;
 
-
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
     .mainGreeting {
-      display: flex;
-      flex-direction: column;
-      padding: 0 15px;
-      margin: 0 auto;
+      @media screen and (max-width: 678px) {
+        margin: 95px auto 0;
+      }
     }
 
-    .mainPhoto {
-      padding: 0 15px;
-      margin: 0 auto;
-      height: 400px;
-      width: 300px;
-      border-radius: 50px;
-      position: relative;
+    .wrapper {
+      @media screen and (max-width: 678px) {
+        margin: 0 auto;
+      }
 
+      .mainPhoto {
+        padding: 0 15px;
+        margin: 0 auto;
+        height: 400px;
+        width: 300px;
+        border-radius: 50px;
+        position: relative;
+        @media screen and (max-width: 678px) {
+
+        }
+      }
     }
   }
 
@@ -32,6 +38,7 @@
     padding-top: 0;
   }
 }
+
 
 
 
